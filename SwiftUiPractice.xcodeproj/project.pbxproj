@@ -15,12 +15,11 @@
 		FB53BA25260729E400B487D5 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53BA24260729E400B487D5 /* LandmarkRow.swift */; };
 		FB53BA2826072BEE00B487D5 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53BA2726072BEE00B487D5 /* LandmarkList.swift */; };
 		FB53BA2B26072E3600B487D5 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53BA2A26072E3600B487D5 /* LandmarkDetail.swift */; };
-		FB68D49726070CF600EBC002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68D49626070CF600EBC002 /* AppDelegate.swift */; };
-		FB68D49926070CF600EBC002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68D49826070CF600EBC002 /* SceneDelegate.swift */; };
+		FB53BA4F260744CD00B487D5 /* SwiftUIPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53BA4E260744CD00B487D5 /* SwiftUIPractice.swift */; };
+		FB53BA592607461F00B487D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB53BA582607461F00B487D5 /* LaunchScreen.storyboard */; };
 		FB68D49B26070CF600EBC002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68D49A26070CF600EBC002 /* ContentView.swift */; };
 		FB68D49D26070CF800EBC002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB68D49C26070CF800EBC002 /* Assets.xcassets */; };
 		FB68D4A026070CF800EBC002 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB68D49F26070CF800EBC002 /* Preview Assets.xcassets */; };
-		FB68D4A326070CF800EBC002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB68D4A126070CF800EBC002 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,13 +31,12 @@
 		FB53BA24260729E400B487D5 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		FB53BA2726072BEE00B487D5 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		FB53BA2A26072E3600B487D5 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		FB53BA4E260744CD00B487D5 /* SwiftUIPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPractice.swift; sourceTree = "<group>"; };
+		FB53BA582607461F00B487D5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB68D49326070CF600EBC002 /* SwiftUiPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB68D49626070CF600EBC002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB68D49826070CF600EBC002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FB68D49A26070CF600EBC002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB68D49C26070CF800EBC002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB68D49F26070CF800EBC002 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FB68D4A226070CF800EBC002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB68D4A426070CF800EBC002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,12 +102,11 @@
 				FB53BA1F2607249F00B487D5 /* Resource */,
 				FB53BA1726071FAF00B487D5 /* Model */,
 				FB68D4AB26070F6000EBC002 /* LandMark */,
-				FB68D49626070CF600EBC002 /* AppDelegate.swift */,
-				FB68D49826070CF600EBC002 /* SceneDelegate.swift */,
 				FB68D49C26070CF800EBC002 /* Assets.xcassets */,
-				FB68D4A126070CF800EBC002 /* LaunchScreen.storyboard */,
 				FB68D4A426070CF800EBC002 /* Info.plist */,
+				FB53BA582607461F00B487D5 /* LaunchScreen.storyboard */,
 				FB68D49E26070CF800EBC002 /* Preview Content */,
+				FB53BA4E260744CD00B487D5 /* SwiftUIPractice.swift */,
 			);
 			path = SwiftUiPractice;
 			sourceTree = "<group>";
@@ -188,8 +185,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB68D4A326070CF800EBC002 /* LaunchScreen.storyboard in Resources */,
 				FB53BA212607280900B487D5 /* landmarkData.json in Resources */,
+				FB53BA592607461F00B487D5 /* LaunchScreen.storyboard in Resources */,
 				FB68D4A026070CF800EBC002 /* Preview Assets.xcassets in Resources */,
 				FB68D49D26070CF800EBC002 /* Assets.xcassets in Resources */,
 			);
@@ -202,12 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB68D49726070CF600EBC002 /* AppDelegate.swift in Sources */,
 				FB53BA11260715E100B487D5 /* CircleImage.swift in Sources */,
 				FB53BA15260716CC00B487D5 /* MapView.swift in Sources */,
 				FB53BA1926071FBD00B487D5 /* LandMark.swift in Sources */,
 				FB53BA2826072BEE00B487D5 /* LandmarkList.swift in Sources */,
-				FB68D49926070CF600EBC002 /* SceneDelegate.swift in Sources */,
+				FB53BA4F260744CD00B487D5 /* SwiftUIPractice.swift in Sources */,
 				FB68D49B26070CF600EBC002 /* ContentView.swift in Sources */,
 				FB53BA25260729E400B487D5 /* LandmarkRow.swift in Sources */,
 				FB53BA2B26072E3600B487D5 /* LandmarkDetail.swift in Sources */,
@@ -216,17 +212,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		FB68D4A126070CF800EBC002 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB68D4A226070CF800EBC002 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FB68D4A526070CF800EBC002 /* Debug */ = {
@@ -280,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -335,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
