@@ -24,7 +24,7 @@ struct LandmarkDetail: View {
                     .padding(.bottom , -130)
                 
                 VStack(alignment: .leading) {
-                    Text("Turtle Rock")
+                    Text(landmark.name)
                         .font(.title)
                     
                     HStack {
