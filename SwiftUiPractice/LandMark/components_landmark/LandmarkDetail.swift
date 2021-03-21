@@ -8,44 +8,53 @@
 import SwiftUI
 
 struct LandmarkDetail: View {
+    var landmark: Landmark
+    
     var body: some View {
-        VStack {
-            MapView()
-                .frame(height: 300)
-                .ignoresSafeArea(edges: .top)
-                .frame(height: 300)
+        ScrollView {
             
-            CircleImage()
-                .offset(y: -130)
-                .padding(.bottom , -130)
-            
-            VStack(alignment: .leading) {
-                Text("Turtle Rock")
-                    .font(.title)
+            VStack {
+                MapView(coordinate: landmark.locationCoordinate)
+                    .frame(height: 300)
+                    
+                    .frame(height: 300)
                 
-                HStack {
-                    Text("Joshua Tree National Park")
-                        .font(.subheadline)
-                    Spacer()
-                    Text("California")
-                        .font(.subheadline)
+                CircleImage(img: landmark.image)
+                    .offset(y: -130)
+                    .padding(.bottom , -130)
+                
+                VStack(alignment: .leading) {
+                    Text("Turtle Rock")
+                        .font(.title)
+                    
+                    HStack {
+                        Text(landmark.park)
+                            .font(.subheadline)
+                        Spacer()
+                        Text(landmark.state)
+                            .font(.subheadline)
+                    }
+                    
+                    Divider()
+                    
+                    Text("About \(landmark.name)")
+                        .font(.title2)
+                    Text(landmark.description)
                 }
+                .padding()
                 
-                Divider()
-                
-                Text("About Turtle Rock")
-                    .font(.title2)
-                Text("Descriptive text goes here.")
+                Spacer()
             }
-            .padding()
-            
-            Spacer()
         }
+        .ignoresSafeArea(edges: .top)
+        .navigationTitle(landmark.name)
+        .navigationBarTitleDisplayMode(.inline)
+        
     }
 }
 
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetail()
+        LandmarkDetail(landmark: landmarks[0])
     }
 }
