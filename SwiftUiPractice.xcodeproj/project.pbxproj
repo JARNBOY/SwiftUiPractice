@@ -23,6 +23,7 @@
 		FB58208B260F368F00D98257 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB582086260F368F00D98257 /* Badge.swift */; };
 		FB58208C260F368F00D98257 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB582087260F368F00D98257 /* BadgeBackground.swift */; };
 		FB58208D260F368F00D98257 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB582088260F368F00D98257 /* RotatedBadgeSymbol.swift */; };
+		FB582090260F386700D98257 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = FB58208F260F386700D98257 /* hikeData.json */; };
 		FB68D49B26070CF600EBC002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68D49A26070CF600EBC002 /* ContentView.swift */; };
 		FB68D49D26070CF800EBC002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB68D49C26070CF800EBC002 /* Assets.xcassets */; };
 		FB68D4A026070CF800EBC002 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB68D49F26070CF800EBC002 /* Preview Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		FB582086260F368F00D98257 /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		FB582087260F368F00D98257 /* BadgeBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 		FB582088260F368F00D98257 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		FB58208F260F386700D98257 /* hikeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		FB68D49326070CF600EBC002 /* SwiftUiPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB68D49A26070CF600EBC002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB68D49C26070CF800EBC002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				FB53BA202607280900B487D5 /* landmarkData.json */,
+				FB58208F260F386700D98257 /* hikeData.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				FB53BA592607461F00B487D5 /* LaunchScreen.storyboard in Resources */,
 				FB68D4A026070CF800EBC002 /* Preview Assets.xcassets in Resources */,
 				FB68D49D26070CF800EBC002 /* Assets.xcassets in Resources */,
+				FB582090260F386700D98257 /* hikeData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
