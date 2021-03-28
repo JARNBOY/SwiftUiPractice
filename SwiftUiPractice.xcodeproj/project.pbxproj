@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB52E76826105A0B00084B53 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB52E76726105A0B00084B53 /* PageControl.swift */; };
 		FB53BA11260715E100B487D5 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53BA10260715E100B487D5 /* CircleImage.swift */; };
 		FB53BA15260716CC00B487D5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53BA14260716CC00B487D5 /* MapView.swift */; };
 		FB53BA1926071FBD00B487D5 /* LandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53BA1826071FBD00B487D5 /* LandMark.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB52E76726105A0B00084B53 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		FB53BA10260715E100B487D5 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		FB53BA14260716CC00B487D5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		FB53BA1826071FBD00B487D5 /* LandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMark.swift; sourceTree = "<group>"; };
@@ -241,6 +243,7 @@
 			children = (
 				FBE0E5F226105260002F064B /* PageViewController.swift */,
 				FBE0E5F82610541E002F064B /* PageView.swift */,
+				FB52E76726105A0B00084B53 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				FB53BA5D2607468100B487D5 /* FavoriteButton.swift in Sources */,
 				FB5820A0260F393D00D98257 /* HikeGraph.swift in Sources */,
 				FB582089260F368F00D98257 /* HexagonParameters.swift in Sources */,
+				FB52E76826105A0B00084B53 /* PageControl.swift in Sources */,
 				FB58208A260F368F00D98257 /* BadgeSymbol.swift in Sources */,
 				FB5820AC260F40F000D98257 /* CategoryItem.swift in Sources */,
 				FB582093260F38BF00D98257 /* Hike.swift in Sources */,
