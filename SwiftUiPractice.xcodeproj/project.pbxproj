@@ -39,6 +39,7 @@
 		FBE0E5DF26103C90002F064B /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE0E5DE26103C90002F064B /* ProfileHost.swift */; };
 		FBE0E5E326103CC5002F064B /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE0E5E226103CC5002F064B /* ProfileSummary.swift */; };
 		FBE0E5E626103D4E002F064B /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE0E5E526103D4E002F064B /* HikeBadge.swift */; };
+		FBE0E5EA26104F09002F064B /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE0E5E926104F09002F064B /* ProfileEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		FBE0E5DE26103C90002F064B /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		FBE0E5E226103CC5002F064B /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
 		FBE0E5E526103D4E002F064B /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
+		FBE0E5E926104F09002F064B /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +223,7 @@
 			children = (
 				FBE0E5DE26103C90002F064B /* ProfileHost.swift */,
 				FBE0E5E226103CC5002F064B /* ProfileSummary.swift */,
+				FBE0E5E926104F09002F064B /* ProfileEditor.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				FB58209E260F393D00D98257 /* HikeDetail.swift in Sources */,
 				FB53BA4F260744CD00B487D5 /* SwiftUIPractice.swift in Sources */,
 				FB58208D260F368F00D98257 /* RotatedBadgeSymbol.swift in Sources */,
+				FBE0E5EA26104F09002F064B /* ProfileEditor.swift in Sources */,
 				FB68D49B26070CF600EBC002 /* ContentView.swift in Sources */,
 				FB5820A1260F393D00D98257 /* HikeView.swift in Sources */,
 				FB58208C260F368F00D98257 /* BadgeBackground.swift in Sources */,
