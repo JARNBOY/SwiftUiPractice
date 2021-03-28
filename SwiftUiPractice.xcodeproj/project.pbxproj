@@ -102,9 +102,9 @@
 		FB53BA1726071FAF00B487D5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FB53BA1C2607246900B487D5 /* ModelData.swift */,
 				FB53BA1826071FBD00B487D5 /* LandMark.swift */,
 				FB582092260F38BF00D98257 /* Hike.swift */,
-				FB53BA1C2607246900B487D5 /* ModelData.swift */,
 				FBE0E5D926103C1E002F064B /* Profile.swift */,
 			);
 			path = Model;
